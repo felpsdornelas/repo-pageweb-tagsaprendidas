@@ -1,0 +1,49 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #9debff; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    height: 200px;
+    align-items: center;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    float: left; /* Alinha o menu à esquerda */
+    background-color: #444; /* Cor de fundo do menu */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    height: calc(100vh - 150px); /* Altura calculada para ocupar a área entre o cabeçalho e o rodapé */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical se necessário */
+}
+
+
+/* Estilos para o conteúdo principal */
+main {
+    margin-top: 20px; /* Espaçamento superior em relação ao cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    margin-left: 250px; /* Espaçamento à esquerda */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #666; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    clear: both; /* Limpa o float para evitar problemas de layout */
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
